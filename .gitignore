@@ -40,6 +40,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+npm-debug.log
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -121,6 +122,9 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/
+.idea/
+*.sublime-workspace
 
 # yarn v2
 .yarn/cache
@@ -128,3 +132,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# windows
+.DS_Store
+Thumbs.db
+
+# XAMPP
+/xampp/htdocs/
+
+# PHP
+/tmp/
